@@ -32,6 +32,3 @@ if __name__ == "__main__":
         
 
 
-
-
-#! /usr/lib/spark/bin/spark-submit --master yarn --deploy-mode cluster /lessons/test_data.py /user/master/data/geo/events/ /user/sumerian17/data/geo/events/

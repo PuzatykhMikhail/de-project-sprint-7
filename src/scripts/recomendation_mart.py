@@ -1,6 +1,7 @@
 import sys
 import datetime
 import math
+
 import pyspark
 from pyspark.sql import SparkSession, DataFrame
 import pyspark.sql.functions as F
@@ -11,14 +12,14 @@ from pyspark.sql.functions import *
 from pyspark.sql.functions import udf
 from pyspark.sql import SQLContext
 from pyspark.context import SparkContext
-import utilities as u
+
 import findspark
+
+import utilities as u
 
 findspark.init()
 findspark.find()
 
-# date = "2022-05-31"
-# depth = "30"
 
 
 def main():
